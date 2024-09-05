@@ -1,0 +1,76 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+logs/*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directories
+coverage/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Build output
+/build
+/public
+
+# Cache directories
+.cache/
+.next/
+
+# IDE-specific files
+.idea/
+.vscode/
+*.swp
+
+# MacOS system files
+.DS_Store
+.DS_Store?
+
+# Linux system files
+*~
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# React specific
+build/
+dist/
+.cache/
+
+# OpenAI keys and secrets
+api_keys.json
+openai_api_key.json
+
+# GitHub Actions
+.github/
+
+# Miscellaneous
+*.log
+*.lock
+*.zip
+
+# Ignore generated OpenAI files
+__pycache__/
+openai_generated/
